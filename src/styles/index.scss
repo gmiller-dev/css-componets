@@ -1,0 +1,35 @@
+// SETTINGS
+@import "./settings/settings.colors.scss";
+@import "~inuitcss/settings/settings.core";
+
+// TOOLS
+@import "~inuitcss/tools/tools.font-size";
+@import "~inuitcss/tools/tools.clearfix";
+
+// GENERIC
+@import "~inuitcss/generic/generic.box-sizing";
+@import "~inuitcss/generic/generic.normalize";
+@import "~inuitcss/generic/generic.shared";
+
+// ELEMENTS
+@import "~inuitcss/elements/elements.page";
+@import "~inuitcss/elements/elements.headings";
+
+// OBJECTS
+@import "~inuitcss/objects/objects.layout";
+@import "~inuitcss/objects/objects.media";
+@import "~inuitcss/objects/objects.flag";
+@import "~inuitcss/objects/objects.list-bare";
+@import "~inuitcss/objects/objects.list-inline";
+@import "~inuitcss/objects/objects.box";
+@import "~inuitcss/objects/objects.block";
+@import "~inuitcss/objects/objects.table";
+
+// COMPONENTS
+// new component files go here
+@import "../components/Checkbox.scss";
+
+// UTILITIES
+@import "~inuitcss/utilities/utilities.widths";
+@import "~inuitcss/utilities/utilities.headings";
+@import "~inuitcss/utilities/utilities.spacings";
